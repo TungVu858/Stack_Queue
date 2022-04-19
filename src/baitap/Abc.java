@@ -9,7 +9,6 @@ public class Abc {
         System.out.println("Nhập n phần tử vào mảng : ");
         System.out.print("n = ");
         int n = scanner.nextInt();
-        String s = "";
         Stack<Integer> stack = new Stack<>();
         Stack<Integer> stack2 = new Stack<>();
         for (int i = 0; i < n; i++) {
